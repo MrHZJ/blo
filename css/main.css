@@ -2728,6 +2728,9 @@ span.stButton_gradient,
 #logo {
     width: 250px;
 }
+#header ul li {
+    text-align: center;
+}
 #home-slider .slide-text h2,#services h2 {
     text-align: center;
     font-size: 35px;
