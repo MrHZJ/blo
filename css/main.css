@@ -2753,6 +2753,25 @@ span.stButton_gradient,
 .single-features img {
     border-radius: 5px;
 }
+.placeholder {
+    height: 0;
+}
+#header {
+    background-color: #fff;
+}
+@media screen and (min-width: 970px) {
+    #header {
+        width: 100%;
+        position: fixed;
+        left: 0;
+        top: 0;
+        background-color: #fff;
+        z-index: 9999;
+    }
+    .placeholder {
+        height: 230px;
+    }
+}
 @media screen and (max-width: 970px) {
     #logo {
         width: 200px;
