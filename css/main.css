@@ -2759,7 +2759,7 @@ span.stButton_gradient,
 #header {
     background-color: #fff;
 }
-@media screen and (min-width: 970px) {
+@media screen and (min-width: 600px) {
     #header {
         width: 100%;
         position: fixed;

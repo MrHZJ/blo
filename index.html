@@ -79,6 +79,7 @@
                         </li>                         
                         <li><a href="#footer" class="scroll">联系我</a></li>                    
                     </ul>
+	                
                 </div>
                 <!--<div class="search">-->
                     <!--<form role="form">-->
@@ -357,9 +358,9 @@
 			/*根据各元素的hash值回到对应的模块*/
 			$(document).ready(function($) {
 				$(".scroll").click(function(event){
-					console.log($)
-					console.log(123)
-					console.log(this.hash)
+//					console.log($)
+//					console.log(123)
+//					console.log(this.hash)
 					event.preventDefault();
 					if(window.screen.width < 480){
 						$('html,body').animate({scrollTop: $(this.hash).offset().top },1000);
@@ -368,7 +369,17 @@
 					}
 					
 				});
+				
+				$('#header ul li').on("click",function(){
+//					alert(123)
+					$('#header ul li').removeClass('active');
+					$(this).addClass('active');
+				})
 			})
+			
+			
+			
+
 		})(jQuery);
 	</script>
 </body>
